@@ -21,12 +21,7 @@ database.connectDB();
 //middlewares
 app.use(express.json());
 app.use(cookieParser());
-app.use(
-	cors({
-		origin:"https://study-notion-mega-project-frontend.vercel.app",
-		credentials:true,
-	})
-)
+app.use(cors())
 // app.use((req, res, next) => {
 // 	res.header('Access-Control-Allow-Origin', '*');
 // 	next();
