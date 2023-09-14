@@ -11,6 +11,7 @@ import { categories } from '../../services/apis'
 import { useState } from 'react'
 import {IoIosArrowDown} from "react-icons/io"
 import {RxHamburgerMenu} from "react-icons/rx"
+import './loader.css'
 // Ḍemo temporary data
 // const subLinks = [
 //     {
@@ -95,7 +96,7 @@ const Navbar = () => {
                                                     <p>{subLink.name}</p>
                                                 </Link>
                                             ) )
-                                    ) : (<div></div>)
+                                    ) : (<span className="loader"></span>)
                                 }
 
                                 </div>
