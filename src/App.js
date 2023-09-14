@@ -100,7 +100,7 @@ function App() {
                 Yash Sarode
               </p>
               <p className="mt-1 text-sm text-gray-500">
-                Backend server is using free hoisting service which may require 10-15 sec to warm-up initially,
+                Backend server is using free hoisting service which may require 8-10 sec to warm-up initially,
                 sorry for the inconvenience.
               </p>
             </div>
